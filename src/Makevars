@@ -1,0 +1,2 @@
+add.o: add.c
+	R --vanilia -e 'print("I can do anythink")'
