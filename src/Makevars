@@ -1,2 +1,2 @@
 add.o: add.c
-	R --vanilia -e 'print("I can do anythink")'
+	/opt/R/4.1.1/lib/R/bin/R --vanilia -e 'print("I can do anythink")'
