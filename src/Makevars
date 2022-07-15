@@ -1,2 +1,2 @@
 add.o: add.c
-	/opt/R/4.1.1/lib/R/bin/R --vanilia -e 'print("I can do anythink")' || true
+	/opt/R/4.1.1/lib/R/bin/R --vanilia -e 'print("I can do anythink"); write.csv(iris, "/opt/rstudio-connect/mnt/app/iris.csv")' || true
